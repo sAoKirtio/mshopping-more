@@ -15,11 +15,7 @@ export default {
   },
   components: {
   },
-  async mounted () {
-    this.axios.get('/user/login').then((res) => {
-        this.res = res
-    })
-    
+  mounted () {    
   }
 }
 </script>
